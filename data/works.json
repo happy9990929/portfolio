@@ -1,0 +1,58 @@
+{
+  "works": [
+    {
+      "id": "hao",
+      "title": "郝創意有限公司",
+      "pictrue": "01.jpg",
+      "image01": "/hao/1.png",
+      "image02": "/hao/2.png",
+      "image03": "/hao/3.png",
+      "image04": "/hao/4.jpg"
+    },
+    {
+      "id": "siidcha",
+      "title": "吾穀茶糧SIIDCHA",
+      "pictrue": "02.jpg",
+      "image01": "/siidcha/1.png",
+      "image02": "/siidcha/2.png",
+      "image03": "/siidcha/3.png",
+      "image04": "/siidcha/4.jpg"
+    },
+    {
+      "id": "moes",
+      "title": "MOES Auto Parts Co.,Ltd. ",
+      "pictrue": "03.jpg",
+      "image01": "/moes/1.png",
+      "image02": "/moes/2.png",
+      "image03": "/moes/3.png",
+      "image04": "/moes/4.jpg"
+    },
+    {
+      "id": "magnate",
+      "title": "鎂格納精密工業股份有限公司",
+      "pictrue": "04.jpg",
+      "image01": "/magnate/1.png",
+      "image02": "/magnate/2.png",
+      "image03": "/magnate/3.png",
+      "image04": "/magnate/4.jpg"
+    },
+    {
+      "id": "weijye",
+      "title": "威捷鐵工廠股份有限公司",
+      "pictrue": "05.jpg",
+      "image01": "/weijye/1.png",
+      "image02": "/weijye/2.png",
+      "image03": "/weijye/3.png",
+      "image04": "/weijye/4.jpg"
+    },
+    {
+      "id": "game",
+      "title": "娛樂包網官方網站",
+      "pictrue": "06.jpg",
+      "image01": "/game/1.png",
+      "image02": "/game/2.png",
+      "image03": "/game/3.png",
+      "image04": "/game/4.jpg"
+    }
+  ]
+}
