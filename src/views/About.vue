@@ -31,7 +31,7 @@
                 <span class="percent">80%</span>
               </div>
               <div class="progress">
-                <span class="progress_bar" style="width: 80%;"></span>
+                <span class="progress_bar" style="width: 75%;"></span>
               </div>
             </div>
             <div class="skill_box">
@@ -40,7 +40,7 @@
                 <span class="percent">85%</span>
               </div>
               <div class="progress">
-                <span class="progress_bar" style="width: 85%;"></span>
+                <span class="progress_bar" style="width: 80%;"></span>
               </div>
             </div>
             <div class="skill_box">
