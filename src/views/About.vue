@@ -28,7 +28,7 @@
             <div class="skill_box">
               <div class="skill_item">
                 <span>Vue.js</span>
-                <span class="percent">80%</span>
+                <span class="percent">75%</span>
               </div>
               <div class="progress">
                 <span class="progress_bar" style="width: 75%;"></span>
@@ -37,7 +37,7 @@
             <div class="skill_box">
               <div class="skill_item">
                 <span>Javascript / ES6</span>
-                <span class="percent">85%</span>
+                <span class="percent">80%</span>
               </div>
               <div class="progress">
                 <span class="progress_bar" style="width: 80%;"></span>
