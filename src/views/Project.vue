@@ -5,16 +5,16 @@
         <h1 class="product_title">{{ project.title }}</h1>
         <ul class="imgs_box">
           <li v-if="project.image01">
-            <img :src="`/images/project/${project.image01}`" class="img-fluid" />
+            <img :src="`${publicPath}images/project/${project.image01}`" class="img-fluid" />
           </li>
           <li v-if="project.image02">
-            <img :src="`/images/project/${project.image02}`" class="img-fluid" />
+            <img :src="`${publicPath}images/project/${project.image02}`" class="img-fluid" />
           </li>
           <li v-if="project.image03">
-            <img :src="`/images/project/${project.image03}`" class="img-fluid" />
+            <img :src="`${publicPath}images/project/${project.image03}`" class="img-fluid" />
           </li>
           <li v-if="project.image04">
-            <img :src="`/images/project/${project.image04}`" class="img-fluid" />
+            <img :src="`${publicPath}images/project/${project.image04}`" class="img-fluid" />
           </li>
         </ul>
         <a :href="project.demo" target="_blank" class="demo" v-if="project.demo">網站範例</a>
@@ -36,6 +36,7 @@
 export default {
   data() {
     return {
+      publicPath: process.env.BASE_URL,
       projects: [],
       project: [],
       idx: 0,
@@ -50,7 +51,7 @@ export default {
     getProjects() {
       const loader = this.$loading.show();
       this.$http
-        .get("/data/db.json")
+        .get(`${this.publicPath}data/db.json`)
         .then(res => {
           this.projects = res.data.projects;
           res.data.projects.forEach((item, idx) => {

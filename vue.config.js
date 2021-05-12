@@ -2,9 +2,7 @@ module.exports = {
   publicPath: process.env.NODE_ENV === 'production'
     ? '/portfolio/'
     : '/',
-  outputDir: "dist",
-  assetsDir: "public",
-  indexPath: 'index.html',
+
   // pages: {
   //   index: {
   //     // entry for the page
