@@ -10,8 +10,8 @@
           </div>
 
           <div class="photo_text">
-            I'm Yi Wen Wang<br />
-            web designer
+            Hello, I'm E Wen<br />
+            是個前端設計師
           </div>
         </div>
       </div>
@@ -21,8 +21,8 @@
         <h1 class="title">About Me</h1>
         <div class="about_box">
           <div class="about_text">
-            I'am engage in the work of web design for eight years, I love to learn about front-end
-            technology and learn from each other with team work.<br /><br />
+            從事網頁設計開發經驗共八年多，有開發客戶、自家網站經驗。現任職前端設計，與工程共同開發使用
+            Vue 框架的網站平台。喜歡學習前端技術，樂於和團隊互相交流分享。<br /><br />
           </div>
           <div class="about_text">
             <div class="skill_box">
