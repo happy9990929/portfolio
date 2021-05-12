@@ -60,7 +60,7 @@
             <ul class="lists">
               <li class="list" v-for="item in skill" :key="item.name">
                 <div class="list_img_box">
-                  <img :src="`/images/skill/${item.img}.png`" />
+                  <img :src="`${publicPath}images/skill/${item.img}.png`" />
                   <span class="list_text">{{ item.name }}</span>
                 </div>
               </li>
@@ -76,7 +76,7 @@
           <ul class="lists">
             <li class="list" v-for="item in skill" :key="item.name">
               <div class="list_img_box">
-                <img :src="`/images/skill/${item.img}.png`" />
+                <img :src="`${publicPath}images/skill/${item.img}.png`" />
                 <span class="list_text">{{ item.name }}</span>
               </div>
             </li>
@@ -107,6 +107,7 @@ export default {
   },
   data() {
     return {
+      publicPath: process.env.BASE_URL,
       options: {
         titCell: ".hd ul", //鼠标的触发元素对象
         mainCell: ".bd ul", //切换元素的包裹层对象
