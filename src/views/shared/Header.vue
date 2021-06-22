@@ -13,14 +13,17 @@
         <i class="fas fa-times"></i>
       </span>
       <ul class="menuItems">
-        <router-link tag="li" class="menuItem" to="/">Projects</router-link>
-        <!-- <router-link tag="li" class="menuItem" to="/works">Company works</router-link> -->
-        <router-link tag="li" class="menuItem" to="/about">About</router-link>
-        <li class="menuItem">
-          <a href="https://happy9990929.github.io/" target="_blank">Blog</a>
+        <li>
+          <router-link to="/" class="menuItem">Projects</router-link>
         </li>
-        <li class="menuItem">
-          <a href="https://github.com/happy9990929" target="_blank">GitHub</a>
+        <li>
+          <router-link to="/about" class="menuItem">About</router-link>
+        </li>
+        <li>
+          <a href="https://happy9990929.github.io/" target="_blank" class="menuItem">Blog</a>
+        </li>
+        <li>
+          <a href="https://github.com/happy9990929" target="_blank" class="menuItem">GitHub</a>
         </li>
       </ul>
     </nav>
