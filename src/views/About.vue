@@ -21,8 +21,8 @@
         <h1 class="title">About Me</h1>
         <div class="about_box">
           <div class="about_text">
-            從事網頁設計開發經驗共八年多，有開發客戶、自家網站經驗。現任職前端設計，與工程共同開發使用
-            Vue 框架的網站平台。喜歡學習前端技術，樂於和團隊互相交流分享。<br /><br />
+            從事網頁設計開發經驗共八年多，有開發客戶、自家網站經驗，並有兩年 Vue
+            框架開發經驗。現任職前端設計師，與工程共同開發使用 Vue 框架的網站平台。<br /><br />
           </div>
           <div class="about_text">
             <div class="skill_box">

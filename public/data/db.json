@@ -10,10 +10,13 @@
       "demo": "https://happy9990929.github.io/taiwan_pork"
     },
     {
-      "id": "gutelo",
-      "title": "gutelo吉他館",
+      "id": "gtplay",
+      "title": "GTPLAY 吉他館",
       "pictrue": "gutelo.jpg",
-      "image01": "/05/1.jpg"
+      "image01": "/gtplay/1.png",
+      "image02": "/gtplay/2.png",
+      "image03": "/gtplay/3.png",
+      "demo": "https://happy9990929.github.io/gtplay"
     },
     {
       "id": "hao",
@@ -24,25 +27,6 @@
       "image03": "/hao/3.png",
       "image04": "/hao/4.jpg",
       "demo": "https://happy9990929.github.io/hao"
-    },
-    {
-      "id": "clothes",
-      "title": "街頭服飾品牌",
-      "pictrue": "clothes.jpg",
-      "image01": "/05/1.jpg",
-      "demo": "https://happy9990929.github.io/street"
-    },
-    {
-      "id": "site",
-      "title": "台灣觀光景點",
-      "pictrue": "site.jpg",
-      "image01": "/05/1.jpg"
-    },
-    {
-      "id": "psychological",
-      "title": "五大人格心理測驗",
-      "pictrue": "psychological.jpg",
-      "image01": "/05/1.jpg"
     },
     {
       "id": "siidcha",
