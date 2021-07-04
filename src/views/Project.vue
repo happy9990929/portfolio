@@ -2,7 +2,15 @@
   <section class="wrapper">
     <div class="product_content animate__animated animate__fadeIn">
       <div class="container">
-        <h1 class="product_title">{{ project.title }}</h1>
+        <div class="content_box">
+          <h1 class="product_title">{{ project.title }}</h1>
+          <p class="d-flex">
+            <span>使用技術：</span><span class="content_text">{{ project.skill }}</span>
+          </p>
+          <p class="d-flex">
+            <span>內容介紹：</span><span class="content_text">{{ project.content }}</span>
+          </p>
+        </div>
         <ul class="imgs_box">
           <li v-if="project.image01">
             <img :src="`${publicPath}images/project/${project.image01}`" class="img-fluid" />
@@ -86,6 +94,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.content_text {
+  flex-grow: 1;
+  flex-basis: 0;
+}
 .demo {
   width: 200px;
   padding: 15px 0;

@@ -7,7 +7,10 @@
       "image01": "/taiwanPork/1.png",
       "image02": "/taiwanPork/2.png",
       "image03": "/taiwanPork/3.png",
-      "demo": "https://happy9990929.github.io/taiwan_pork"
+      "image04": "/taiwanPork/4.png",
+      "demo": "https://happy9990929.github.io/taiwan_pork",
+      "skill": "Vue3/Vuex、axios 串接 API、SCSS",
+      "content": "快速查找全國台灣豬證明標章商家，利用 Vue.js、JS 製作效果動畫與 SCSS 開發的 RWD 網站"
     },
     {
       "id": "gtplay",
@@ -16,7 +19,10 @@
       "image01": "/gtplay/1.png",
       "image02": "/gtplay/2.png",
       "image03": "/gtplay/3.png",
-      "demo": "https://happy9990929.github.io/gtplay"
+      "image04": "/gtplay/4.jpg",
+      "demo": "https://happy9990929.github.io/gtplay",
+      "skill": "Vue2/Vuex、axios 串接 API、SCSS、BS",
+      "content": "利用 Vue 開發模擬樂器行的 RWD 電商網站，串接 API 下單購物，並使用 JS 製作 Scrolling Animation"
     },
     {
       "id": "hao",
@@ -26,7 +32,9 @@
       "image02": "/hao/2.png",
       "image03": "/hao/3.png",
       "image04": "/hao/4.jpg",
-      "demo": "https://happy9990929.github.io/hao"
+      "demo": "https://happy9990929.github.io/hao",
+      "skill": "jQuery、CSS Animation",
+      "content": "於郝創意公司時製作的官方網站，使用 JQuery、CSS 開發製作動畫效果的 RWD 網站"
     },
     {
       "id": "siidcha",
@@ -36,7 +44,9 @@
       "image02": "/siidcha/2.png",
       "image03": "/siidcha/3.png",
       "image04": "/siidcha/4.jpg",
-      "demo": "https://www.siidcha.com.tw/index.php"
+      "demo": "https://www.siidcha.com.tw/index.php",
+      "skill": "HTML、CSS",
+      "content": "於采新廣告時製作的 RWD 網站，負責切版、美化"
     },
     {
       "id": "moes",
@@ -46,7 +56,9 @@
       "image02": "/moes/2.png",
       "image03": "/moes/3.png",
       "image04": "/moes/4.jpg",
-      "demo": "https://moes-taiwan.com"
+      "demo": "https://moes-taiwan.com",
+      "skill": "HTML、CSS、jQuery",
+      "content": "於采新廣告時製作的 RWD 網站，切版、美化、橫向滾動效果"
     },
     {
       "id": "magnate",
@@ -56,7 +68,9 @@
       "image02": "/magnate/2.png",
       "image03": "/magnate/3.png",
       "image04": "/magnate/4.jpg",
-      "demo": "https://magnate-y2001.com.tw"
+      "demo": "https://magnate-y2001.com.tw",
+      "skill": "HTML、CSS、jQuery",
+      "content": "於采新廣告時製作的 RWD 網站，切版、美化，使用 light box 燈箱效果"
     },
     {
       "id": "weijye",
@@ -66,7 +80,9 @@
       "image02": "/weijye/2.png",
       "image03": "/weijye/3.png",
       "image04": "/weijye/4.jpg",
-      "demo": "https://weijye.com/"
+      "demo": "https://weijye.com/",
+      "skill": "HTML、CSS Animation、jQuery",
+      "content": "於采新廣告時製作的 RWD 網站，切版、美化，使用 light box 燈箱效果"
     },
     {
       "id": "game",
@@ -76,7 +92,9 @@
       "image02": "/game/2.png",
       "image03": "/game/3.png",
       "image04": "/game/4.jpg",
-      "demo": "https://www.wh8group.com"
+      "demo": "https://www.wh8group.com",
+      "skill": "HTML、CSS、jQuery",
+      "content": "遊戲網站開發平台，使用 jQuery 製作輪播、分類排序"
     }
   ]
 }

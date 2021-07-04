@@ -122,6 +122,7 @@ export default {
         { name: "Javascript", img: "JS" },
         { name: "HTML", img: "HTML" },
         { name: "CSS3", img: "CSS" },
+        { name: "SASS/SCSS", img: "SASS" },
         { name: "jQuery", img: "JQ" },
         { name: "Git", img: "GIT" },
         { name: "Github", img: "GITHUB" },
