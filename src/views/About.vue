@@ -9,10 +9,7 @@
             </div>
           </div>
 
-          <div class="photo_text">
-            Hello, I'm E Wen<br />
-            是個前端設計師
-          </div>
+          <div class="photo_text">Hello, 我是王羿文<br /></div>
         </div>
       </div>
     </div>
