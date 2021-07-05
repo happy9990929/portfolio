@@ -10,7 +10,7 @@
       "image04": "/pork/4.png",
       "demo": "https://happy9990929.github.io/taiwan_pork",
       "skill": "Vue3/Vuex、axios 串接 API、SCSS",
-      "content": "快速查找全國台灣豬證明標章商家，利用 Vue.js、JS 製作效果動畫與 SCSS 開發的 RWD 網站"
+      "content": "快速查找全國台灣豬證明標章商家，利用 Vue 開發、Javascript 製作效果動畫與 SCSS 開發的 RWD 網站"
     },
     {
       "id": "gtplay",
@@ -22,7 +22,7 @@
       "image04": "/gtplay/4.jpg",
       "demo": "https://happy9990929.github.io/gtplay",
       "skill": "Vue2/Vuex、axios 串接 API、SCSS、BS",
-      "content": "利用 Vue 開發模擬樂器行的 RWD 電商網站，串接 API 下單購物，並使用 JS 製作 Scrolling Animation"
+      "content": "開發模擬樂器行的 RWD 電商網站，串接 API 下單購物，並使用 Javascript 製作 Scrolling Animation"
     },
     {
       "id": "hao",
@@ -34,7 +34,7 @@
       "image04": "/hao/4.jpg",
       "demo": "https://happy9990929.github.io/hao",
       "skill": "jQuery、CSS Animation",
-      "content": "於郝創意公司時製作的官方網站，使用 JQuery、CSS 開發製作動畫效果的 RWD 網站"
+      "content": "於郝創意公司時製作的官方網站，豐富視覺動畫效果的 RWD 網站"
     },
     {
       "id": "siidcha",
