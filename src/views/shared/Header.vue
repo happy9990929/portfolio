@@ -14,7 +14,10 @@
       </span>
       <ul class="menuItems">
         <li>
-          <router-link to="/" class="menuItem">Projects</router-link>
+          <router-link to="/" class="menuItem">Web</router-link>
+        </li>
+        <li>
+          <router-link to="/works" class="menuItem">Graphic</router-link>
         </li>
         <li>
           <router-link to="/about" class="menuItem">About</router-link>

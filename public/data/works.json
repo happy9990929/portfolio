@@ -1,58 +1,105 @@
 {
-  "works": [
+  "projects": [
     {
-      "id": "hao",
-      "title": "郝創意有限公司",
-      "pictrue": "01.jpg",
-      "image01": "/hao/1.png",
-      "image02": "/hao/2.png",
-      "image03": "/hao/3.png",
-      "image04": "/hao/4.jpg"
+      "id": "lite",
+      "title": "詠真實業股份有限公司",
+      "pictrue": "lite.jpg",
+      "image01": "/lite/1.jpg",
+      "image02": "/lite/2.jpg",
+      "image03": "/lite/3.jpg",
+      "image04": "/lite/4.jpg",
+      "image05": "/lite/5.jpg",
+      "image06": "/lite/6.jpg",
+      "image07": "/lite/7.jpg",
+      "image08": "/lite/8.jpg",
+      "skill": "型錄​設計",
+      "content": "研發製造居家、飯店、商業空間及舞台使用之燈光控制系統"
     },
     {
-      "id": "siidcha",
-      "title": "吾穀茶糧SIIDCHA",
-      "pictrue": "02.jpg",
-      "image01": "/siidcha/1.png",
-      "image02": "/siidcha/2.png",
-      "image03": "/siidcha/3.png",
-      "image04": "/siidcha/4.jpg"
+      "id": "hh",
+      "title": "禾祥禎有限公司",
+      "pictrue": "hh.jpg",
+      "image01": "/hh/1.jpg",
+      "image02": "/hh/2.jpg",
+      "image03": "/hh/3.jpg",
+      "image04": "/hh/4.jpg",
+      "image05": "/hh/5.jpg",
+      "image06": "/hh/6.jpg",
+      "skill": "型錄​設計、海報設計",
+      "content": "專業製造TPR(SEBS.SBS)TPO.TPV.TPE環保膠粒可應用於射出.押出雙料結合製品"
     },
     {
-      "id": "moes",
-      "title": "MOES Auto Parts Co.,Ltd. ",
-      "pictrue": "03.jpg",
-      "image01": "/moes/1.png",
-      "image02": "/moes/2.png",
-      "image03": "/moes/3.png",
-      "image04": "/moes/4.jpg"
+      "id": "hontech",
+      "title": "宏泰開發工業股份有限公司",
+      "pictrue": "hontech.jpg",
+      "image01": "/hontech/1.jpg",
+      "image02": "/hontech/2.jpg",
+      "image03": "/hontech/3.jpg",
+      "image04": "/hontech/4.jpg",
+      "image05": "/hontech/5.jpg",
+      "image06": "/hontech/6.jpg",
+      "image07": "/hontech/7.jpg",
+      "image08": "/hontech/8.jpg",
+      "skill": "型錄​設計",
+      "content": "行動電話, POS相關設備, 顯示器轉盤, 其他電腦零組件, LCD支架等產品及服務"
     },
     {
-      "id": "magnate",
-      "title": "鎂格納精密工業股份有限公司",
-      "pictrue": "04.jpg",
-      "image01": "/magnate/1.png",
-      "image02": "/magnate/2.png",
-      "image03": "/magnate/3.png",
-      "image04": "/magnate/4.jpg"
+      "id": "best",
+      "title": "貝思捷國際有限公司",
+      "pictrue": "best.jpg",
+      "image01": "/best/1.jpg",
+      "image02": "/best/2.jpg",
+      "image03": "/best/3.jpg",
+      "image04": "/best/4.jpg",
+      "image05": "/best/5.jpg",
+      "image06": "/best/6.jpg",
+      "image07": "/best/7.jpg",
+      "image08": "/best/8.jpg",
+      "skill": "型錄​設計、海報設計",
+      "content": "EVA發泡產品、家用地墊、玩具、鐵件家具、配件、NBR防撞產品、園藝墊等相關產品"
     },
     {
-      "id": "weijye",
-      "title": "威捷鐵工廠股份有限公司",
-      "pictrue": "05.jpg",
-      "image01": "/weijye/1.png",
-      "image02": "/weijye/2.png",
-      "image03": "/weijye/3.png",
-      "image04": "/weijye/4.jpg"
+      "id": "wine",
+      "title": "中興大學EMBA品酒社",
+      "pictrue": "wine.jpg",
+      "image01": "/wine/1.jpg",
+      "image02": "/wine/2.jpg",
+      "image03": "/wine/3.jpg",
+      "skill": "Logo設計",
+      "content": "中興大學社團"
+    },
+
+    {
+      "id": "shinn",
+      "title": "信榮螺絲企業股份有限公司",
+      "pictrue": "shinn.jpg",
+      "image01": "/shinn/1.jpg",
+      "image02": "/shinn/2.jpg",
+      "image03": "/shinn/3.jpg",
+      "image04": "/shinn/4.jpg",
+      "image05": "/shinn/5.jpg",
+      "image06": "/shinn/6.jpg",
+      "skill": "型錄​設計",
+      "content": "螺絲製造"
     },
     {
-      "id": "game",
-      "title": "娛樂包網官方網站",
-      "pictrue": "06.jpg",
-      "image01": "/game/1.png",
-      "image02": "/game/2.png",
-      "image03": "/game/3.png",
-      "image04": "/game/4.jpg"
+      "id": "tpf",
+      "title": "商匯興業有限公司",
+      "pictrue": "tpf.jpg",
+      "image01": "/tpf/1.jpg",
+      "image02": "/tpf/2.jpg",
+      "image03": "/tpf/3.jpg",
+      "skill": "海報設計、X型展架組",
+      "content": "螺絲專業生產製造"
+    },
+    {
+      "id": "ann",
+      "title": "健安養生事業坊",
+      "pictrue": "ann.jpg",
+      "image01": "/ann/1.jpg",
+      "image02": "/ann/2.jpg",
+      "skill": "開門折DM設計",
+      "content": "提供產後媽媽月子餐點服務"
     }
   ]
 }
