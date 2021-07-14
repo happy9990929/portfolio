@@ -65,8 +65,11 @@ figure  {
   padding-top: 30px;
 }
 .content_box {
-  width: 800px;
+  width: 80%;
   margin: 10% auto;
+  @media screen and (min-width: 992px) {
+    width: 800px;
+  }
 }
 .product_title {
   margin-bottom: 10%;
@@ -122,31 +125,33 @@ figure  {
     background-color: #e7a01e;
   }
 }
-@media screen and (min-width: 768px) {
-  .arrow {
-    position: fixed;
-    top: 50%;
-    font-size: 2.5rem;
-    color: #e7a01e;
-    display: block;
-    cursor: pointer;
-    opacity: 0.5;
-    transition: all 0.35s ease-in-out;
-    &.next {
-      right: 5%;
-      &:hover {
+.arrow {
+  position: fixed;
+  top: calc(50vh - 60px);
+  font-size: 2.5rem;
+  color: #e7a01e;
+  display: block;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: all 0.35s ease-in-out;
+  &.next {
+    right: 5%;
+    &:hover {
+      @media screen and (min-width: 768px) {
         transform: translateX(20px);
       }
     }
-    &.prev {
-      left: 5%;
-      &:hover {
+  }
+  &.prev {
+    left: 5%;
+    &:hover {
+      @media screen and (min-width: 768px) {
         transform: translateX(-20px);
       }
     }
-    &:hover {
-      opacity: 1;
-    }
+  }
+  &:hover {
+    opacity: 1;
   }
 }
 .figure {
@@ -186,7 +191,10 @@ figure  {
   line-height: 48px;
   height: 48px;
   transition: all .35s ease;
-  transform: translate3d(0,100%,0);
+  transform: translate3d(0,0%,0);
+  @media screen and (min-width: 768px) {
+    transform: translate3d(0,100%,0);
+  }
 }
 
 

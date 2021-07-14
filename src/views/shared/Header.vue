@@ -14,13 +14,34 @@
       </span>
       <ul class="menuItems">
         <li>
-          <router-link to="/" class="menuItem">Web</router-link>
+          <router-link
+            to="/"
+            class="menuItem"
+            @mouseover.native="Web = '網頁設計'"
+            @mouseout.native="Web = 'Web'"
+          >
+            {{ Web }}
+          </router-link>
         </li>
         <li>
-          <router-link to="/works" class="menuItem">Graphic</router-link>
+          <router-link
+            to="/works"
+            class="menuItem"
+            @mouseover.native="Graphic = '平面設計'"
+            @mouseout.native="Graphic = 'Graphic'"
+          >
+            {{ Graphic }}
+          </router-link>
         </li>
         <li>
-          <router-link to="/about" class="menuItem">About</router-link>
+          <router-link
+            to="/about"
+            class="menuItem"
+            @mouseover.native="About = '關於我們'"
+            @mouseout.native="About = 'About'"
+          >
+            {{ About }}
+          </router-link>
         </li>
         <li>
           <a href="https://happy9990929.github.io/" target="_blank" class="menuItem">Blog</a>
@@ -35,6 +56,13 @@
 
 <script>
 export default {
+  data() {
+    return {
+      Web: "Web",
+      Graphic: "Graphic",
+      About: "About"
+    };
+  },
   methods: {
     openMenu() {
       this.$refs.menu.style.width = "100%";
@@ -116,7 +144,8 @@ export default {
   }
 }
 .menuItem {
-  padding: 1.5em;
+  padding: 1.5em 0;
+  min-width: 125px;
   white-space: nowrap;
   cursor: pointer;
   display: block;
