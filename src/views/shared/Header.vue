@@ -44,7 +44,9 @@
           </router-link>
         </li>
         <li>
-          <a href="https://happy9990929.github.io/" target="_blank" class="menuItem">Blog</a>
+          <a href="https://happy9990929.github.io/" target="_blank" class="menuItem">
+            Blog
+          </a>
         </li>
         <li>
           <a href="https://github.com/happy9990929" target="_blank" class="menuItem">GitHub</a>

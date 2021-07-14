@@ -4,10 +4,10 @@
       <div class="container">
         <div class="content_box">
           <h1 class="product_title">{{ project.title }}</h1>
-          <p class="d-flex">
+          <p class="product_text">
             <span>平面作品：</span><span class="content_text">{{ project.skill }}</span>
           </p>
-          <p class="d-flex">
+          <p class="product_text">
             <span>客戶產業：</span><span class="content_text">{{ project.content }}</span>
           </p>
         </div>
