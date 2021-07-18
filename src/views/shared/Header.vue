@@ -14,32 +14,19 @@
       </span>
       <ul class="menuItems">
         <li>
-          <router-link
-            to="/"
-            class="menuItem"
-            @mouseover.native="Web = '網頁設計'"
-            @mouseout.native="Web = 'Web'"
-          >
+          <router-link to="/" class="menuItem" @mouseover.native="Web = '網頁設計'" @mouseout.native="Web = 'Web'">
             {{ Web }}
           </router-link>
         </li>
         <li>
-          <router-link
-            to="/works"
-            class="menuItem"
-            @mouseover.native="Graphic = '平面設計'"
-            @mouseout.native="Graphic = 'Graphic'"
-          >
+          <router-link to="/works" class="menuItem" @mouseover.native="Graphic = '平面設計'"
+            @mouseout.native="Graphic = 'Graphic'">
             {{ Graphic }}
           </router-link>
         </li>
         <li>
-          <router-link
-            to="/about"
-            class="menuItem"
-            @mouseover.native="About = '關於我們'"
-            @mouseout.native="About = 'About'"
-          >
+          <router-link to="/about" class="menuItem" @mouseover.native="About = '關於我'"
+            @mouseout.native="About = 'About'">
             {{ About }}
           </router-link>
         </li>
@@ -62,7 +49,7 @@ export default {
     return {
       Web: "Web",
       Graphic: "Graphic",
-      About: "About"
+      About: "About",
     };
   },
   methods: {
@@ -71,16 +58,16 @@ export default {
     },
     closeMenu() {
       this.$refs.menu.style.width = 0;
-    }
+    },
   },
   mounted() {
     const menuItem = document.querySelectorAll(".menuItem");
-    menuItem.forEach(item => {
+    menuItem.forEach((item) => {
       item.addEventListener("click", () => {
         this.closeMenu();
       });
     });
-  }
+  },
 };
 </script>
 
