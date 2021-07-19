@@ -28,7 +28,7 @@
                 <span class="percent">75%</span>
               </div>
               <div class="progress">
-                <span class="progress_bar" style="width: 75%;"></span>
+                <span class="progress_bar bar75"></span>
               </div>
             </div>
             <div class="skill_box">
@@ -37,7 +37,7 @@
                 <span class="percent">80%</span>
               </div>
               <div class="progress">
-                <span class="progress_bar" style="width: 80%;"></span>
+                <span class="progress_bar bar80"></span>
               </div>
             </div>
             <div class="skill_box">
@@ -46,7 +46,7 @@
                 <span class="percent">90%</span>
               </div>
               <div class="progress">
-                <span class="progress_bar" style="width: 90%;"></span>
+                <span class="progress_bar bar90"></span>
               </div>
             </div>
           </div>
@@ -95,7 +95,10 @@ export default {
         if (scrollHeight + windowHeight > objTop) {
           obj.classList.add("animate__animated", effect);
         }
-        if (scrollHeight < objTop - windowHeight || scrollHeight > objTop + windowHeight) {
+        if (
+          scrollHeight < objTop - windowHeight ||
+          scrollHeight > objTop + windowHeight
+        ) {
           obj.classList.remove("animate__animated", effect);
         }
       });
@@ -112,7 +115,7 @@ export default {
         effect: "left",
         autoPlay: true,
         scroll: 6, //每次滾動個數
-        vis: 6 //可視個數
+        vis: 6, //可視個數
       },
       skill: [
         { name: "VUE.js", img: "VUE" },
@@ -126,8 +129,8 @@ export default {
         { name: "Bootstrap", img: "BS" },
         { name: "Photoshop", img: "PS" },
         { name: "XD", img: "XD" },
-        { name: "Illustrator", img: "AI" }
-      ]
+        { name: "Illustrator", img: "AI" },
+      ],
     };
   },
   computed: {
@@ -137,8 +140,8 @@ export default {
       )
         ? true
         : false;
-    }
-  }
+    },
+  },
 };
 </script>
 <style lang="scss" scoped>
@@ -234,6 +237,51 @@ export default {
   height: 5px;
   background-color: #e7a01e;
   display: block;
+}
+.bar75 {
+  animation-name: bar75;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+  animation-duration: 2s;
+  width: 0%;
+}
+@keyframes bar75 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+.bar80 {
+  animation-name: bar80;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+  animation-duration: 2s;
+  width: 0%;
+}
+@keyframes bar80 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+.bar90 {
+  animation-name: bar90;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+  animation-duration: 2s;
+  width: 0%;
+}
+@keyframes bar90 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
 }
 .slideBox {
   display: none;
