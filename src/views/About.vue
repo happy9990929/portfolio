@@ -14,7 +14,7 @@
       </div>
     </div>
     <div class="content_padding">
-      <div class="container animate__animated animate__fadeInUp">
+      <div class="container animate__animated" ref="container">
         <h1 class="title">About Me</h1>
         <div class="about_box">
           <div class="about_text">
@@ -25,28 +25,28 @@
             <div class="skill_box">
               <div class="skill_item">
                 <span>Vue.js</span>
-                <span class="percent">75%</span>
+                <span class="percent">{{ bar.vue }}%</span>
               </div>
               <div class="progress">
-                <span class="progress_bar bar75"></span>
+                <span class="progress_bar bar75" :style="`width: ${bar.vue}%`"></span>
               </div>
             </div>
             <div class="skill_box">
               <div class="skill_item">
                 <span>Javascript / ES6</span>
-                <span class="percent">80%</span>
+                <span class="percent">{{ bar.js }}%</span>
               </div>
               <div class="progress">
-                <span class="progress_bar bar80"></span>
+                <span class="progress_bar bar80" :style="`width: ${bar.js}%`"></span>
               </div>
             </div>
             <div class="skill_box">
               <div class="skill_item">
                 <span>CSS3</span>
-                <span class="percent">90%</span>
+                <span class="percent">{{ bar.css }}%</span>
               </div>
               <div class="progress">
-                <span class="progress_bar bar90"></span>
+                <span class="progress_bar bar90" :style="`width: ${bar.css}%`"></span>
               </div>
             </div>
           </div>
@@ -85,26 +85,6 @@
 </template>
 <script>
 export default {
-  mounted() {
-    function animate(dom, effect) {
-      window.addEventListener("scroll", () => {
-        const scrollHeight = document.documentElement.scrollTop;
-        const obj = dom;
-        const objTop = obj.offsetTop;
-        const windowHeight = window.innerHeight;
-        if (scrollHeight + windowHeight > objTop) {
-          obj.classList.add("animate__animated", effect);
-        }
-        if (
-          scrollHeight < objTop - windowHeight ||
-          scrollHeight > objTop + windowHeight
-        ) {
-          obj.classList.remove("animate__animated", effect);
-        }
-      });
-    }
-    // animate(this.$refs.photo_circle, "animate__bounceIn");
-  },
   data() {
     return {
       publicPath: process.env.BASE_URL,
@@ -131,6 +111,11 @@ export default {
         { name: "XD", img: "XD" },
         { name: "Illustrator", img: "AI" },
       ],
+      bar: {
+        vue: 0,
+        js: 0,
+        css: 0,
+      },
     };
   },
   computed: {
@@ -142,9 +127,75 @@ export default {
         : false;
     },
   },
+  mounted() {
+    this.animation();
+  },
+  methods: {
+    animation() {
+      function animate(dom, effect) {
+        window.addEventListener("scroll", () => {
+          const scrollHeight = document.documentElement.scrollTop;
+          const obj = dom;
+          const objTop = obj.offsetTop;
+          const windowHeight = window.innerHeight;
+          if (scrollHeight + windowHeight > objTop) {
+            obj.classList.add("animate__animated", effect);
+          }
+          if (
+            scrollHeight < objTop - windowHeight ||
+            scrollHeight > objTop + windowHeight
+          ) {
+            obj.classList.remove("animate__animated", effect);
+          }
+        });
+      }
+      animate(this.$refs.container, "animate__fadeInUp");
+      setTimeout(() => {
+        this.prograss();
+      }, 2000);
+    },
+    prograss() {
+      const timer = setInterval(() => {
+        if (this.bar.vue < 75) {
+          this.bar.vue++;
+        }
+        if (this.bar.js < 80) {
+          this.bar.js++;
+        }
+        if (this.bar.css < 90) {
+          this.bar.css++;
+          if (this.bar.css === 90) {
+            clearInterval(timer);
+          }
+        }
+      }, 15);
+    },
+  },
 };
 </script>
 <style lang="scss" scoped>
+.content_padding {
+  padding: 2rem 2rem 3rem;
+  background-color: #fff;
+  &:nth-child(2n) {
+    background-color: #f7f7f7;
+  }
+}
+.banner {
+  background-size: cover;
+  background-attachment: fixed;
+  background-position-y: -250px;
+  background-position-x: center;
+  height: 250px;
+  width: 100%;
+  @media screen and (min-width: 992px) {
+    height: 700px;
+  }
+}
+.title {
+  color: #624033;
+  font-weight: normal;
+}
 .about_banner {
   background-image: url("~@/assets/images/about/banner.jpg");
   background-position-y: top;
@@ -237,51 +288,7 @@ export default {
   height: 5px;
   background-color: #e7a01e;
   display: block;
-}
-.bar75 {
-  animation-name: bar75;
-  animation-fill-mode: forwards;
-  animation-delay: 1s;
-  animation-duration: 2s;
-  width: 0%;
-}
-@keyframes bar75 {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 75%;
-  }
-}
-.bar80 {
-  animation-name: bar80;
-  animation-fill-mode: forwards;
-  animation-delay: 2s;
-  animation-duration: 2s;
-  width: 0%;
-}
-@keyframes bar80 {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 80%;
-  }
-}
-.bar90 {
-  animation-name: bar90;
-  animation-fill-mode: forwards;
-  animation-delay: 3s;
-  animation-duration: 2s;
-  width: 0%;
-}
-@keyframes bar90 {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 90%;
-  }
+  transition: all 0.4s ease;
 }
 .slideBox {
   display: none;

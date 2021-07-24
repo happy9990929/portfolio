@@ -37,28 +37,6 @@ figure  {
     padding-top: 0;
   }
 }
-.content_padding {
-  padding: 2rem 2rem 3rem;
-  background-color: #FFF;
-  &:nth-child(2n) {
-    background-color: #F7F7F7;
-  }
-}
-.banner {
-  background-size: cover;
-  background-attachment: fixed;
-  background-position-y: -250px;
-  background-position-x: center;
-  height: 250px;
-  width: 100%;
-  @media screen and (min-width: 992px) {
-    height: 550px;
-  }
-}
-.title {
-  color: #624033;
-  font-weight: normal;
-}
 
 /*products*/
 .product_content {
