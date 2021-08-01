@@ -95,6 +95,15 @@
       "demo": "https://www.wh8group.com",
       "skill": "HTML、CSS、jQuery",
       "content": "遊戲網站開發平台，使用 jQuery 製作輪播、分類排序"
+    },
+    {
+      "id": "street",
+      "title": "街頭服飾",
+      "pictrue": "street.jpg",
+      "image01": "/street/1.jpg",
+      "demo": "https://happy9990929.github.io/street/",
+      "skill": "JavaScript",
+      "content": "用純 JavaScript 製作街頭服飾風格的網站，嘗試各種不同的網頁效果"
     }
   ]
 }
