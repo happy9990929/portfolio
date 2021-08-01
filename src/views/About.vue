@@ -28,7 +28,7 @@
                 <span class="percent">{{ bar.vue }}%</span>
               </div>
               <div class="progress">
-                <span class="progress_bar bar75" :style="`width: ${bar.vue}%`"></span>
+                <span class="progress_bar" :style="`width: ${bar.vue}%`"></span>
               </div>
             </div>
             <div class="skill_box">
@@ -37,7 +37,7 @@
                 <span class="percent">{{ bar.js }}%</span>
               </div>
               <div class="progress">
-                <span class="progress_bar bar80" :style="`width: ${bar.js}%`"></span>
+                <span class="progress_bar" :style="`width: ${bar.js}%`"></span>
               </div>
             </div>
             <div class="skill_box">
@@ -46,7 +46,7 @@
                 <span class="percent">{{ bar.css }}%</span>
               </div>
               <div class="progress">
-                <span class="progress_bar bar90" :style="`width: ${bar.css}%`"></span>
+                <span class="progress_bar" :style="`width: ${bar.css}%`"></span>
               </div>
             </div>
           </div>
@@ -159,7 +159,7 @@ export default {
         if (this.bar.vue < 75) {
           this.bar.vue++;
         }
-        if (this.bar.js < 80) {
+        if (this.bar.js < 70) {
           this.bar.js++;
         }
         if (this.bar.css < 90) {
