@@ -9,7 +9,7 @@
             </div>
           </div>
 
-          <div class="photo_text">Hello, 我是王羿文<br /></div>
+          <div class="photo_text" ref="type">Hello, 我是王羿文<br /></div>
         </div>
       </div>
     </div>
@@ -129,6 +129,7 @@ export default {
   },
   mounted() {
     this.animation();
+    this.typing();
   },
   methods: {
     animation() {
@@ -169,6 +170,22 @@ export default {
           }
         }
       }, 15);
+    },
+    typing() {
+      function typeing(element, speed) {
+        const text = element.innerText;
+        element.innerText = "";
+        let i = 0;
+        let timer = setInterval(() => {
+          if (i < text.length) {
+            element.append(text.charAt(i));
+            i++;
+          } else {
+            clearInterval(timer);
+          }
+        }, speed);
+      }
+      typeing(this.$refs.type, 110);
     },
   },
 };
@@ -245,9 +262,11 @@ export default {
     font-size: 1.5rem;
     margin-left: 30px;
     text-align: left;
+    width: 45%;
   }
   @media screen and (min-width: 768px) {
     font-size: 2.5rem;
+    width: 47%;
   }
 }
 .about_box {
