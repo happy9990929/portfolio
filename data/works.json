@@ -44,20 +44,15 @@
       "content": "行動電話, POS相關設備, 顯示器轉盤, 其他電腦零組件, LCD支架等產品及服務"
     },
     {
-      "id": "best",
-      "title": "貝思捷國際有限公司",
-      "pictrue": "best.jpg",
-      "image01": "/best/1.jpg",
-      "image02": "/best/2.jpg",
-      "image03": "/best/3.jpg",
-      "image04": "/best/4.jpg",
-      "image05": "/best/5.jpg",
-      "image06": "/best/6.jpg",
-      "image07": "/best/7.jpg",
-      "image08": "/best/8.jpg",
-      "skill": "型錄​設計、海報設計",
-      "content": "EVA發泡產品、家用地墊、玩具、鐵件家具、配件、NBR防撞產品、園藝墊等相關產品"
+      "id": "bearshow",
+      "title": "熊出沒寵物食品",
+      "pictrue": "bearshow.jpg",
+      "image01": "/bearshow/1.jpg",
+      "image02": "/bearshow/2.jpg",
+      "skill": "Logo設計, 名片設計",
+      "content": "寵物食品販售"
     },
+
     {
       "id": "wine",
       "title": "中興大學EMBA品酒社",
@@ -68,7 +63,6 @@
       "skill": "Logo設計",
       "content": "中興大學社團"
     },
-
     {
       "id": "shinn",
       "title": "信榮螺絲企業股份有限公司",
@@ -100,6 +94,62 @@
       "image02": "/ann/2.jpg",
       "skill": "開門折DM設計",
       "content": "提供產後媽媽月子餐點服務"
+    },
+    {
+      "id": "industrial",
+      "title": "Banner-EDM 工業類",
+      "pictrue": "industrial.jpg",
+      "image01": "/industrial/1.jpg",
+      "image02": "/industrial/2.jpg",
+      "image03": "/industrial/3.jpg",
+      "image04": "/industrial/4.jpg",
+      "image05": "/industrial/5.jpg",
+      "image06": "/industrial/6.jpg",
+      "image07": "/industrial/7.jpg",
+      "skill": "Banner​設計、EDM設計",
+      "content": "腳踏車、機車零件，極細微粒碳化鎢"
+    },
+    {
+      "id": "beauty",
+      "title": "Banner-EDM 美容/美髮/保養類",
+      "pictrue": "beauty.jpg",
+      "image01": "/beauty/1.jpg",
+      "image02": "/beauty/2.jpg",
+      "image03": "/beauty/3.jpg",
+      "image04": "/beauty/4.jpg",
+      "image05": "/beauty/5.jpg",
+      "image06": "/beauty/6.jpg",
+      "image07": "/beauty/7.jpg",
+      "image08": "/beauty/8.jpg",
+      "skill": "Banner​設計、EDM設計",
+      "content": "美容美髮，臉部、身體健康保養"
+    },
+    {
+      "id": "business",
+      "title": "Banner-EDM 商業類",
+      "pictrue": "business.jpg",
+      "image01": "/business/1.jpg",
+      "image02": "/business/2.jpg",
+      "image03": "/business/3.jpg",
+      "image04": "/business/4.jpg",
+      "image05": "/business/5.jpg",
+      "skill": "Banner​設計、EDM設計",
+      "content": "飲用水、課程報名、餐廳、文具"
+    },
+    {
+      "id": "best",
+      "title": "貝思捷國際有限公司",
+      "pictrue": "best.jpg",
+      "image01": "/best/1.jpg",
+      "image02": "/best/2.jpg",
+      "image03": "/best/3.jpg",
+      "image04": "/best/4.jpg",
+      "image05": "/best/5.jpg",
+      "image06": "/best/6.jpg",
+      "image07": "/best/7.jpg",
+      "image08": "/best/8.jpg",
+      "skill": "型錄​設計、海報設計",
+      "content": "EVA發泡產品、家用地墊、玩具、鐵件家具、配件、NBR防撞產品、園藝墊等相關產品"
     }
   ]
 }

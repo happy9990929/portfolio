@@ -34,55 +34,7 @@
       "image04": "/hao/4.jpg",
       "demo": "https://happy9990929.github.io/hao",
       "skill": "jQuery、CSS Animation",
-      "content": "於郝創意公司時製作的官方網站，豐富視覺動畫效果的 RWD 網站"
-    },
-    {
-      "id": "siidcha",
-      "title": "吾穀茶糧SIIDCHA",
-      "pictrue": "siidcha.jpg",
-      "image01": "/siidcha/1.png",
-      "image02": "/siidcha/2.png",
-      "image03": "/siidcha/3.png",
-      "image04": "/siidcha/4.jpg",
-      "demo": "https://www.siidcha.com.tw/index.php",
-      "skill": "HTML、CSS",
-      "content": "於采新廣告時製作的 RWD 網站，負責切版、美化"
-    },
-    {
-      "id": "moes",
-      "title": "MOES Auto Parts Co.,Ltd. ",
-      "pictrue": "moes.jpg",
-      "image01": "/moes/1.png",
-      "image02": "/moes/2.png",
-      "image03": "/moes/3.png",
-      "image04": "/moes/4.jpg",
-      "demo": "https://moes-taiwan.com",
-      "skill": "HTML、CSS、jQuery",
-      "content": "於采新廣告時製作的 RWD 網站，切版、美化、橫向滾動效果"
-    },
-    {
-      "id": "magnate",
-      "title": "鎂格納精密工業股份有限公司",
-      "pictrue": "magnate.jpg",
-      "image01": "/magnate/1.png",
-      "image02": "/magnate/2.png",
-      "image03": "/magnate/3.png",
-      "image04": "/magnate/4.jpg",
-      "demo": "https://magnate-y2001.com.tw",
-      "skill": "HTML、CSS、jQuery",
-      "content": "於采新廣告時製作的 RWD 網站，切版、美化，使用 light box 燈箱效果"
-    },
-    {
-      "id": "weijye",
-      "title": "威捷鐵工廠股份有限公司",
-      "pictrue": "weijye.jpg",
-      "image01": "/weijye/1.png",
-      "image02": "/weijye/2.png",
-      "image03": "/weijye/3.png",
-      "image04": "/weijye/4.jpg",
-      "demo": "https://weijye.com/",
-      "skill": "HTML、CSS Animation、jQuery",
-      "content": "於采新廣告時製作的 RWD 網站，切版、美化，使用 light box 燈箱效果"
+      "content": "郝創意有限公司官方網站，豐富視覺動畫效果的 RWD 網站"
     },
     {
       "id": "game",
@@ -95,6 +47,77 @@
       "demo": "https://www.wh8group.com",
       "skill": "HTML、CSS、jQuery",
       "content": "遊戲網站開發平台，使用 jQuery 製作輪播、分類排序"
+    },
+    {
+      "id": "siidcha",
+      "title": "吾穀茶糧SIIDCHA",
+      "pictrue": "siidcha.jpg",
+      "image01": "/siidcha/1.png",
+      "image02": "/siidcha/2.png",
+      "image03": "/siidcha/3.png",
+      "image04": "/siidcha/4.jpg",
+      "demo": "https://www.siidcha.com.tw/index.php",
+      "skill": "HTML、CSS",
+      "content": "製作響應式 RWD 網站，切版、美化視覺"
+    },
+    {
+      "id": "fancy",
+      "title": "菲市集",
+      "pictrue": "fancy.jpg",
+      "image01": "/fancy/1.png",
+      "image02": "/fancy/2.png",
+      "image03": "/fancy/3.jpg",
+      "image04": "/fancy/4.jpg",
+      "demo": "https://fancy.qdm.com.tw/pages/blogIndex",
+      "skill": "HTML、CSS、jQuery",
+      "content": "客戶網站為QDM套版網站，協助客製修改頁面、並新增區塊內容於首頁及生活營養教室頁面"
+    },
+    {
+      "id": "moes",
+      "title": "MOES Auto Parts Co.,Ltd. ",
+      "pictrue": "moes.jpg",
+      "image01": "/moes/1.png",
+      "image02": "/moes/2.png",
+      "image03": "/moes/3.png",
+      "image04": "/moes/4.jpg",
+      "demo": "https://moes-taiwan.com",
+      "skill": "HTML、CSS、jQuery",
+      "content": "製作響應式 RWD 網站，切版、美化視覺，製作橫向滾動效果"
+    },
+    {
+      "id": "magnate",
+      "title": "鎂格納精密工業股份有限公司",
+      "pictrue": "magnate.jpg",
+      "image01": "/magnate/1.png",
+      "image02": "/magnate/2.png",
+      "image03": "/magnate/3.png",
+      "image04": "/magnate/4.jpg",
+      "demo": "https://magnate-y2001.com.tw",
+      "skill": "HTML、CSS、jQuery",
+      "content": "製作響應式 RWD 網站，切版、美化視覺，使用 light box 燈箱效果"
+    },
+    {
+      "id": "weijye",
+      "title": "威捷鐵工廠股份有限公司",
+      "pictrue": "weijye.jpg",
+      "image01": "/weijye/1.png",
+      "image02": "/weijye/2.png",
+      "image03": "/weijye/3.png",
+      "image04": "/weijye/4.jpg",
+      "demo": "https://weijye.com/",
+      "skill": "HTML、CSS Animation、jQuery",
+      "content": "製作響應式 RWD 網站，切版、美化視覺，使用 light box 燈箱效果"
+    },
+    {
+      "id": "industrial",
+      "title": "工業金屬零件網站",
+      "pictrue": "industrial.jpg",
+      "image01": "/industrial/1.png",
+      "image02": "/industrial/2.png",
+      "image03": "/industrial/3.jpg",
+      "demo": "https://happy9990929.github.io/indurstrial",
+      "skill": "HTML、CSS、jQuery",
+      "content": "製作一頁式 RWD 網站，transition 動畫豐富動態視覺"
     },
     {
       "id": "street",
