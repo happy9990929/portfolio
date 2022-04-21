@@ -16,6 +16,15 @@
       "content": "研發製造居家、飯店、商業空間及舞台使用之燈光控制系統"
     },
     {
+      "id": "cactus",
+      "title": "仙人掌甜品",
+      "pictrue": "cactus.jpg",
+      "image01": "/cactus/1.jpg",
+      "image02": "/cactus/2.jpg",
+      "skill": "Logo設計, 菜單設計",
+      "content": "甜品店，提供雪花冰、嫩仙草、豆花等餐點"
+    },
+    {
       "id": "hh",
       "title": "禾祥禎有限公司",
       "pictrue": "hh.jpg",
@@ -27,6 +36,23 @@
       "image06": "/hh/6.jpg",
       "skill": "型錄​設計、海報設計",
       "content": "專業製造TPR(SEBS.SBS)TPO.TPV.TPE環保膠粒可應用於射出.押出雙料結合製品"
+    },
+    {
+      "id": "bearshow",
+      "title": "熊出沒寵物食品",
+      "pictrue": "bearshow.jpg",
+      "image01": "/bearshow/1.jpg",
+      "image02": "/bearshow/2.jpg",
+      "skill": "Logo設計, 名片設計",
+      "content": "寵物食品販售"
+    },
+    {
+      "id": "fish",
+      "title": "漁多甜",
+      "pictrue": "fish.jpg",
+      "image01": "/fish/1.jpg",
+      "skill": "Logo設計",
+      "content": "日式料理店，提供各式壽司等餐點"
     },
     {
       "id": "hontech",
@@ -43,16 +69,6 @@
       "skill": "型錄​設計",
       "content": "行動電話, POS相關設備, 顯示器轉盤, 其他電腦零組件, LCD支架等產品及服務"
     },
-    {
-      "id": "bearshow",
-      "title": "熊出沒寵物食品",
-      "pictrue": "bearshow.jpg",
-      "image01": "/bearshow/1.jpg",
-      "image02": "/bearshow/2.jpg",
-      "skill": "Logo設計, 名片設計",
-      "content": "寵物食品販售"
-    },
-
     {
       "id": "wine",
       "title": "中興大學EMBA品酒社",
