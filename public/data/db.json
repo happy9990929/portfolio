@@ -1,16 +1,14 @@
 {
   "projects": [
     {
-      "id": "pork",
-      "title": "台灣豬證明標章商家",
-      "pictrue": "pork.jpg",
-      "image01": "/pork/1.png",
-      "image02": "/pork/2.png",
-      "image03": "/pork/3.png",
-      "image04": "/pork/4.png",
-      "demo": "https://happy9990929.github.io/taiwan_pork",
-      "skill": "Vue3/Vuex、axios 串接 API、SCSS",
-      "content": "快速查找全國台灣豬證明標章商家，利用 Vue 開發、Javascript 製作效果動畫與 SCSS 開發的 RWD 網站"
+      "id": "museum",
+      "title": "國立科學工藝VR線上博物館",
+      "pictrue": "museum.jpg",
+      "image01": "/museum/1.png",
+      "image03": "/museum/3.png",
+      "demo": "https://happy9990929.github.io/VRmuseum",
+      "skill": "Panolens、Three、Javascript",
+      "content": "全景模式導覽，打造虛擬線上博物館，即使不出門也可以逛博物館"
     },
     {
       "id": "gtplay",
@@ -23,6 +21,18 @@
       "demo": "https://happy9990929.github.io/gtplay",
       "skill": "Vue2/Vuex、axios 串接 API、SCSS、BS",
       "content": "開發模擬樂器行的 RWD 電商網站，串接 API 下單購物，並使用 Javascript 製作 Scrolling Animation"
+    },
+    {
+      "id": "pork",
+      "title": "台灣豬證明標章商家",
+      "pictrue": "pork.jpg",
+      "image01": "/pork/1.png",
+      "image02": "/pork/2.png",
+      "image03": "/pork/3.png",
+      "image04": "/pork/4.png",
+      "demo": "https://happy9990929.github.io/taiwan_pork",
+      "skill": "Vue3/Vuex、axios 串接 API、SCSS",
+      "content": "快速查找全國台灣豬證明標章商家，利用 Vue 開發、Javascript 製作效果動畫與 SCSS 開發的 RWD 網站"
     },
     {
       "id": "hao",
