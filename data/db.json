@@ -1,16 +1,6 @@
 {
   "projects": [
     {
-      "id": "museum",
-      "title": "國立科學工藝VR線上博物館",
-      "pictrue": "museum.jpg",
-      "image01": "/museum/1.png",
-      "image03": "/museum/3.png",
-      "demo": "https://happy9990929.github.io/VRmuseum",
-      "skill": "Panolens、Three、Javascript",
-      "content": "全景模式導覽，打造虛擬線上博物館，即使不出門也可以逛博物館"
-    },
-    {
       "id": "gtplay",
       "title": "GTPLAY 吉他館",
       "pictrue": "gutelo.jpg",
@@ -21,6 +11,16 @@
       "demo": "https://happy9990929.github.io/gtplay",
       "skill": "Vue2/Vuex、axios 串接 API、SCSS、BS",
       "content": "開發模擬樂器行的 RWD 電商網站，串接 API 下單購物，並使用 Javascript 製作 Scrolling Animation"
+    },
+    {
+      "id": "museum",
+      "title": "國立科學工藝VR線上博物館",
+      "pictrue": "museum.jpg",
+      "image01": "/museum/1.png",
+      "image03": "/museum/3.png",
+      "demo": "https://happy9990929.github.io/VRmuseum",
+      "skill": "Panolens、Three、Javascript",
+      "content": "全景模式導覽，打造虛擬線上博物館，即使不出門也可以逛博物館"
     },
     {
       "id": "pork",
@@ -45,6 +45,17 @@
       "demo": "https://happy9990929.github.io/hao",
       "skill": "jQuery、CSS Animation",
       "content": "郝創意有限公司官方網站，豐富視覺動畫效果的 RWD 網站"
+    },
+    {
+      "id": "dunHaung",
+      "title": "盾皇高分子科技有限公司",
+      "pictrue": "dunHaung.jpg",
+      "image01": "/dunHaung/1.png",
+      "image02": "/dunHaung/2.png",
+      "image03": "/dunHaung/3.png",
+      "demo": "https://www.dun-huang.com.tw/",
+      "skill": "HTML、CSS、jQuery",
+      "content": "客戶產品為汽車導航保護貼，量身打造公司的一頁式網站、Banner 設計、製作 RWD 網站"
     },
     {
       "id": "game",
@@ -128,15 +139,6 @@
       "demo": "https://happy9990929.github.io/indurstrial",
       "skill": "HTML、CSS、jQuery",
       "content": "製作一頁式 RWD 網站，transition 動畫豐富動態視覺"
-    },
-    {
-      "id": "street",
-      "title": "街頭服飾",
-      "pictrue": "street.jpg",
-      "image01": "/street/1.jpg",
-      "demo": "https://happy9990929.github.io/street/",
-      "skill": "JavaScript",
-      "content": "用純 JavaScript 製作街頭服飾風格的網站，嘗試各種不同的網頁效果"
     }
   ]
 }
