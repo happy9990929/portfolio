@@ -29,7 +29,7 @@
       "image01": "/pork/1.png",
       "image02": "/pork/2.png",
       "image03": "/pork/3.png",
-      "image04": "/pork/4.png",
+      "image04": "/pork/4.jpg",
       "demo": "https://happy9990929.github.io/taiwan_pork",
       "skill": "Vue3/Vuex、axios 串接 API、SCSS",
       "content": "快速查找全國台灣豬證明標章商家，利用 Vue 開發、Javascript 製作效果動畫與 SCSS 開發的 RWD 網站"
@@ -53,6 +53,7 @@
       "image01": "/dunHaung/1.png",
       "image02": "/dunHaung/2.png",
       "image03": "/dunHaung/3.png",
+      "image04": "/dunHaung/4.jpg",
       "demo": "https://www.dun-huang.com.tw/",
       "skill": "HTML、CSS、jQuery",
       "content": "客戶產品為汽車導航保護貼，量身打造公司的一頁式網站、Banner 設計、製作 RWD 網站"
