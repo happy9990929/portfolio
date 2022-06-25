@@ -39,12 +39,22 @@
     },
     {
       "id": "bearshow",
-      "title": "熊出沒寵物食品",
+      "title": "熊出沒、熊大肌",
       "pictrue": "bearshow.jpg",
       "image01": "/bearshow/1.jpg",
       "image02": "/bearshow/2.jpg",
+      "image03": "/bearshow/3.jpg",
       "skill": "Logo設計, 名片設計",
-      "content": "寵物食品販售"
+      "content": "寵物食品販售、健身健康產業"
+    },
+    {
+      "id": "dunHaung",
+      "title": "盾皇高分子科技有限公司",
+      "pictrue": "dunHaung.jpg",
+      "image01": "/dunHaung/1.jpg",
+      "image02": "/dunHaung/2.jpg",
+      "skill": "Logo設計, 貼標設計",
+      "content": "汽車專用儀表 / 導航 9H 鋼化玻璃保護貼"
     },
     {
       "id": "fish",
