@@ -18,7 +18,7 @@
         <h1 class="title">About Me</h1>
         <div class="about_box">
           <div class="about_text">
-            從事網頁設計開發經驗共八年多，有兩年多 Vue 框架開發經驗，也可使用 NuxtJs 打造 SSR 網站，是一名前端工程師，也是平面設計師，有網站與設計問題歡迎找我合作或技術交流分享。<br /><br />
+            從事網頁開發經驗共 9 年，有 3 年 Vue 框架開發經驗，可使用 NuxtJs 打造 SSR 網站，現為專職外包前端工程師，有前端網站問題歡迎找我合作或技術交流分享😊<br /><br />
           </div>
           <div class="about_text">
             <div class="skill_box">

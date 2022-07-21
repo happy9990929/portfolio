@@ -14,16 +14,16 @@
       </span>
       <ul class="menuItems">
         <li>
-          <router-link to="/" class="menuItem" @mouseover.native="Web = '網頁設計'" @mouseout.native="Web = 'Web'">
+          <router-link to="/" class="menuItem" @mouseover.native="Web = '網頁開發'" @mouseout.native="Web = 'Web'">
             {{ Web }}
           </router-link>
         </li>
-        <li>
+        <!-- <li>
           <router-link to="/works" class="menuItem" @mouseover.native="Graphic = '平面設計'"
             @mouseout.native="Graphic = 'Graphic'">
             {{ Graphic }}
           </router-link>
-        </li>
+        </li> -->
         <li>
           <router-link to="/about" class="menuItem" @mouseover.native="About = '關於我'"
             @mouseout.native="About = 'About'">
