@@ -23,11 +23,20 @@
           <div class="about_text">
             <div class="skill_box">
               <div class="skill_item">
-                <span>Vue.js</span>
+                <span>Vue</span>
                 <span class="percent">{{ bar.vue }}%</span>
               </div>
               <div class="progress">
                 <span class="progress_bar" :style="`width: ${bar.vue}%`"></span>
+              </div>
+            </div>
+            <div class="skill_box">
+              <div class="skill_item">
+                <span>React</span>
+                <span class="percent">{{ bar.react }}%</span>
+              </div>
+              <div class="progress">
+                <span class="progress_bar" :style="`width: ${bar.react}%`"></span>
               </div>
             </div>
             <div class="skill_box">
@@ -112,6 +121,7 @@ export default {
       ],
       bar: {
         vue: 0,
+        react: 0,
         js: 0,
         css: 0,
       },
@@ -156,10 +166,13 @@ export default {
     },
     prograss() {
       const timer = setInterval(() => {
-        if (this.bar.vue < 75) {
+        if (this.bar.vue < 85) {
           this.bar.vue++;
         }
-        if (this.bar.js < 70) {
+        if (this.bar.react < 70) {
+          this.bar.react++;
+        }
+        if (this.bar.js < 80) {
           this.bar.js++;
         }
         if (this.bar.css < 90) {
