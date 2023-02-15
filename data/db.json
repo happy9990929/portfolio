@@ -1,15 +1,47 @@
 {
   "projects": [
     {
+      "id": "planet9",
+      "title": "Acer Planet9 Billboard",
+      "pictrue": "planet9.jpg",
+      "image01": "/planet9/1.png",
+      "image02": "/planet9/2.png",
+      "demo": "https://www.planet9.gg/billboard",
+      "skill": "Vue3/Vuex、i18n、axios、Swiper、SCSS、BootStrap",
+      "content": "嵌入應用程式的電競遊戲動態看板，支援多國語系，串接 API，並處理各國應出現的卡片邏輯、黑白名單過濾"
+    },
+    {
+      "id": "herbalife",
+      "title": "賀寶芙 LINE LIFF 抽獎活動",
+      "pictrue": "herbalife.jpg",
+      "image01": "/herbalife/1.png",
+      "image02": "/herbalife/2.png",
+      "image03": "/herbalife/3.png",
+      "demo": "",
+      "skill": "Vue3/Vuex、LINE LIFF、Tailwind、axios",
+      "content": "加入賀寶芙的LINE官方帳號，自動使用LINE瀏覽器開啟，即可參加抽獎活動，分享活動給好友可再次進行抽獎活動。"
+    },
+    {
+      "id": "ecadmin",
+      "title": "後臺管理系統",
+      "pictrue": "ecadmin.jpg",
+      "image01": "/ecadmin/1.png",
+      "image02": "/ecadmin/2.jpg",
+      "image03": "/ecadmin/3.jpg",
+      "demo": "",
+      "skill": "Vue2/Vuex、axios、SCSS",
+      "content": "後臺系統設定，串接 API，連動前臺資料"
+    },
+    {
       "id": "gtplay",
       "title": "GTPLAY 吉他館",
-      "pictrue": "gutelo.jpg",
+      "pictrue": "gtplay.jpg",
       "image01": "/gtplay/1.png",
       "image02": "/gtplay/2.png",
       "image03": "/gtplay/3.png",
       "image04": "/gtplay/4.jpg",
       "demo": "https://happy9990929.github.io/gtplay",
-      "skill": "Vue2/Vuex、axios 串接 API、SCSS、BS",
+      "skill": "Vue2/Vuex、axios、SCSS、BootStrap",
       "content": "開發模擬樂器行的 RWD 電商網站，串接 API 下單購物，並使用 Javascript 製作 Scrolling Animation"
     },
     {
@@ -21,18 +53,6 @@
       "demo": "https://happy9990929.github.io/VRmuseum",
       "skill": "Panolens、Three、Javascript",
       "content": "全景模式導覽，打造虛擬線上博物館，即使不出門也可以逛博物館"
-    },
-    {
-      "id": "pork",
-      "title": "台灣豬證明標章商家",
-      "pictrue": "pork.jpg",
-      "image01": "/pork/1.png",
-      "image02": "/pork/2.png",
-      "image03": "/pork/3.png",
-      "image04": "/pork/4.jpg",
-      "demo": "https://happy9990929.github.io/taiwan_pork",
-      "skill": "Vue3/Vuex、axios 串接 API、SCSS",
-      "content": "快速查找全國台灣豬證明標章商家，利用 Vue 開發、Javascript 製作效果動畫與 SCSS 開發的 RWD 網站"
     },
     {
       "id": "hao",
@@ -59,6 +79,18 @@
       "content": "客戶產品為汽車導航保護貼，量身打造公司的一頁式網站、Banner 設計、製作 RWD 網站"
     },
     {
+      "id": "pork",
+      "title": "台灣豬證明標章商家",
+      "pictrue": "pork.jpg",
+      "image01": "/pork/1.png",
+      "image02": "/pork/2.png",
+      "image03": "/pork/3.png",
+      "image04": "/pork/4.jpg",
+      "demo": "https://happy9990929.github.io/taiwan_pork",
+      "skill": "Vue3/Vuex、axios 串接 API、SCSS",
+      "content": "快速查找全國台灣豬證明標章商家，利用 Vue 開發、Javascript 製作效果動畫與 SCSS 開發的 RWD 網站"
+    },
+    {
       "id": "game",
       "title": "娛樂包網官方網站",
       "pictrue": "game.jpg",
@@ -69,18 +101,6 @@
       "demo": "https://www.wh8group.com",
       "skill": "HTML、CSS、jQuery",
       "content": "遊戲網站開發平台，使用 jQuery 製作輪播、分類排序"
-    },
-    {
-      "id": "siidcha",
-      "title": "吾穀茶糧SIIDCHA",
-      "pictrue": "siidcha.jpg",
-      "image01": "/siidcha/1.png",
-      "image02": "/siidcha/2.png",
-      "image03": "/siidcha/3.png",
-      "image04": "/siidcha/4.jpg",
-      "demo": "https://www.siidcha.com.tw/index.php",
-      "skill": "HTML、CSS",
-      "content": "製作響應式 RWD 網站，切版、美化視覺"
     },
     {
       "id": "fancy",
