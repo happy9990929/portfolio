@@ -106,17 +106,20 @@ export default {
         vis: 6, //可視個數
       },
       skill: [
-        { name: "VUE.js", img: "VUE" },
+        { name: "VUE", img: "VUE" },
+        { name: "REACT", img: "REACT" },
         { name: "Javascript", img: "JS" },
         { name: "HTML", img: "HTML" },
         { name: "CSS3", img: "CSS" },
         { name: "SASS/SCSS", img: "SASS" },
+        { name: "Tailwind", img: "TAILWIND" },
+        { name: "Bootstrap", img: "BS" },
         { name: "jQuery", img: "JQ" },
         { name: "Git", img: "GIT" },
         { name: "Github", img: "GITHUB" },
-        { name: "Bootstrap", img: "BS" },
-        { name: "Photoshop", img: "PS" },
+        { name: "FIGMA", img: "FIGMA" },
         { name: "XD", img: "XD" },
+        { name: "Photoshop", img: "PS" },
         { name: "Illustrator", img: "AI" },
       ],
       bar: {
