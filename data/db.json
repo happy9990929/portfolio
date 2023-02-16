@@ -30,7 +30,7 @@
       "image03": "/ecadmin/3.jpg",
       "demo": "",
       "skill": "Vue2/Vuex、axios、SCSS",
-      "content": "後臺系統設定，串接 API，連動前臺資料"
+      "content": "後臺系統設定，串接 API，同步連動前臺資料"
     },
     {
       "id": "gtplay",
@@ -42,7 +42,7 @@
       "image04": "/gtplay/4.jpg",
       "demo": "https://happy9990929.github.io/gtplay",
       "skill": "Vue2/Vuex、axios、SCSS、BootStrap",
-      "content": "開發模擬樂器行的 RWD 電商網站，串接 API 下單購物，並使用 Javascript 製作 Scrolling Animation"
+      "content": "開發模擬樂器行的 RWD 電商網站，捲軸滾動動畫效果呈現各式商品，串接 API 可下單購物"
     },
     {
       "id": "museum",
@@ -64,7 +64,7 @@
       "image04": "/hao/4.jpg",
       "demo": "https://happy9990929.github.io/hao",
       "skill": "jQuery、CSS Animation",
-      "content": "郝創意有限公司官方網站，豐富視覺動畫效果的 RWD 網站"
+      "content": "為遊戲產業製作的官方網站，利用動畫效果來豐富視覺感受，電腦、平板、手機皆支援的 RWD 網站"
     },
     {
       "id": "dunHaung",
@@ -76,7 +76,7 @@
       "image04": "/dunHaung/4.jpg",
       "demo": "https://www.dun-huang.com.tw/",
       "skill": "HTML、CSS、jQuery",
-      "content": "客戶產品為汽車導航保護貼，量身打造公司的一頁式網站、Banner 設計、製作 RWD 網站"
+      "content": "客戶產品為汽車導航保護貼，公司以金色、黑色為主色系，量身打造公司的一頁式網站、Banner 設計、製作 RWD 網站"
     },
     {
       "id": "pork",
