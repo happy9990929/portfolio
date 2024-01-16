@@ -1,8 +1,19 @@
 {
   "projects": [
     {
+      "id": "hpt",
+      "title": "交通部公路局-機車危險感知教育平台",
+      "pictrue": "hpt.jpg",
+      "image01": "hpt/1.png",
+      "image02": "hpt/2.png",
+      "image03": "hpt/1.jpg",
+      "demo": "https://hpt.thb.gov.tw/",
+      "skill": "React、Swiper、SCSS、BootStrap",
+      "content": "製作符合AA標準無障礙網站，提供考照者預約考照、影片客製化互動測驗"
+    },
+    {
       "id": "planet9",
-      "title": "Acer Planet9 Billboard",
+      "title": "Acer-Planet9 Billboard",
       "pictrue": "planet9.jpg",
       "image01": "/planet9/1.png",
       "image02": "/planet9/2.png",
@@ -11,8 +22,31 @@
       "content": "嵌入應用程式的電競遊戲動態看板，支援多國語系，串接 API，並處理各國應出現的卡片邏輯、黑白名單過濾"
     },
     {
+      "id": "wish",
+      "title": "賀寶芙-2024星願啟動LINE抽獎活動",
+      "pictrue": "wish.jpg",
+      "image01": "wish/1.png",
+      "image02": "wish/2.png",
+      "image03": "wish/3.png",
+      "image04": "wish/4.png",
+      "demo": "",
+      "skill": "Vue3/Vuex、LINE LIFF、Tailwind、axios",
+      "content": "加入賀寶芙的LINE官方帳號，自動使用LINE瀏覽器開啟，即可參加抽獎活動，分享活動給好友可再次進行抽獎活動。"
+    },
+    {
+      "id": "dragon",
+      "title": "賀寶芙-與龍共午LINE抽獎活動",
+      "pictrue": "dragon.jpg",
+      "image01": "dragon/1.png",
+      "image02": "dragon/2.png",
+      "image03": "dragon/3.png",
+      "demo": "",
+      "skill": "Vue3/Vuex、LINE LIFF、Tailwind、axios",
+      "content": "加入賀寶芙的LINE官方帳號，自動使用LINE瀏覽器開啟，即可參加抽獎活動，分享活動給好友可再次進行抽獎活動。"
+    },
+    {
       "id": "herbalife",
-      "title": "賀寶芙 LINE LIFF 抽獎活動",
+      "title": "賀寶芙-玩轉時空派對LINE抽獎活動",
       "pictrue": "herbalife.jpg",
       "image01": "/herbalife/1.png",
       "image02": "/herbalife/2.png",
