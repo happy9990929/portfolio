@@ -7,9 +7,9 @@
           <p class="product_text">
             <span>使用技術：</span><span class="content_text">{{ project.skill }}</span>
           </p>
-          <p class="product_text">
-            <span>內容介紹：</span><span class="content_text">{{ project.content }}</span>
-          </p>
+          <div class="product_text">
+            <span>內容介紹：</span><div class="content_text" v-html="project.content"></div>
+          </div>
         </div>
         <ul class="imgs_box">
           <li v-if="project.image01">
@@ -23,6 +23,18 @@
           </li>
           <li v-if="project.image04">
             <img :src="`${publicPath}images/project/${project.image04}`" class="img-fluid" />
+          </li>
+          <li v-if="project.image05">
+            <img :src="`${publicPath}images/project/${project.image05}`" class="img-fluid" />
+          </li>
+          <li v-if="project.image06">
+            <img :src="`${publicPath}images/project/${project.image06}`" class="img-fluid" />
+          </li>
+          <li v-if="project.image07">
+            <img :src="`${publicPath}images/project/${project.image07}`" class="img-fluid" />
+          </li>
+          <li v-if="project.image08">
+            <img :src="`${publicPath}images/project/${project.image08}`" class="img-fluid" />
           </li>
         </ul>
         <a :href="project.demo" target="_blank" class="demo" v-if="project.demo">網站範例</a>

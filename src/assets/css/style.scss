@@ -84,6 +84,16 @@ figure  {
 .content_text {
   flex-grow: 1;
   flex-basis: 0;
+
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    list-style: disc;
+    list-style-position: inside;
+  }
 }
 .demo {
   width: 200px;
