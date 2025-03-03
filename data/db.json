@@ -1,6 +1,22 @@
 {
   "projects": [
     {
+      "id": "planet9max",
+      "title": "Acer-Planet9 Billboard Max",
+      "pictrue": "planet9.jpg",
+      "image01": "/planet9max/1.jpg",
+      "image02": "/planet9max/2.jpg",
+      "image03": "/planet9max/3.jpg",
+      "image04": "/planet9max/4.jpg",
+      "image05": "/planet9max/5.jpg",
+      "image06": "/planet9max/6.jpg",
+      "image07": "/planet9max/7.jpg",
+      "image08": "/planet9max/8.jpg",
+      "demo": "https://www.planet9.gg/billboardmax",
+      "skill": "Vue3、Pinia、i18n、Tailwind CSS",
+      "content": "嵌入應用程式的電競遊戲動態看板，可瀏覽各種遊戲專欄、影片<br/><br/>功能<br/><ul><li>會員登入</li><li>多國語系</li><li>保護模式，針對成人或兒童顯示相關內容</li><li>各國應出現的卡片邏輯</li><li>卡片黑白名單過濾</li><li>不同裝置顯示不同色系版型</li><li>顯示最新或精選卡片標籤</li></ul>"
+    },
+    {
       "id": "hpt",
       "title": "交通部公路局-機車危險感知教育平台",
       "pictrue": "hpt.jpg",
