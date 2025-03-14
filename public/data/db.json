@@ -1,9 +1,20 @@
 {
   "projects": [
     {
+      "id": "thesalt",
+      "title": "光塩設計",
+      "pictrue": "thesalt.jpg",
+      "image01": "thesalt/1.png",
+      "image02": "thesalt/2.png",
+      "image03": "thesalt/1.jpg",
+      "demo": "https://thesalt.design/",
+      "skill": "Vue、Swiper、Gsap、Tailwind CSS",
+      "content": "室內設計公司官方形象網站，卷軸滾動動畫、瀏覽作品"
+    },
+    {
       "id": "planet9max",
       "title": "Acer-Planet9 Billboard Max",
-      "pictrue": "planet9.jpg",
+      "pictrue": "planet9max.jpg",
       "image01": "/planet9max/1.jpg",
       "image02": "/planet9max/2.jpg",
       "image03": "/planet9max/3.jpg",
